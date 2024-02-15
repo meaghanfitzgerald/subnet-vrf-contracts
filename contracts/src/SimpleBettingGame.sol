@@ -5,7 +5,7 @@
 pragma solidity 0.8.18;
 
 import {VRFConsumerBaseV2} from "@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol";
-import {IVRFProxy} from "./IVRFProxy.sol";
+import {IVRFProxy} from "https://github.com/ava-labs/subnet-vrf-contracts/blob/main/contracts/src/IVRFProxy.sol";
 import {ReentrancyGuard} from "@openzeppelin/contracts@4.8.1/security/ReentrancyGuard.sol";
 
 /**
